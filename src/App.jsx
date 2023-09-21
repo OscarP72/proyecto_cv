@@ -20,21 +20,20 @@ const App = () => {
         className="custom-btn btn-4"
         onClick={() => setShowEducation(true)}
       >
-        Education
+        Educación
       </button>
       <button
         className="custom-btn btn-4"
         onClick={() => setShowEducation(false)}
       >
-        Experience
+        Experiencia
       </button>
       {showEducation ? (
         <Education education={education} />
       ) : (
         <Experience experience={experience} />
       )}
-      <Education education={education} />
-      <Experience experience={experience} />
+      
       <More
         languages={languages}
         habilities={habilities}

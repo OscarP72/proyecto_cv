@@ -3,7 +3,7 @@ import "./More.css";
 const More = ({ languages, habilities, volunteer }) => {
   return (
     <div>
-      <h2>Languages</h2>
+      <h2>Idiomas</h2>
       <p>{languages.language}</p>
       <p>{languages.wrlevel}</p>
       <p>{languages.splevel}</p>
@@ -13,7 +13,7 @@ const More = ({ languages, habilities, volunteer }) => {
           <li key={hability}>{hability}</li>
         ))}
       </ul>
-      <h2>Volunteer</h2>
+      <h2>Voluntariado</h2>
       {volunteer.map((item) => (
         <div key={JSON.stringify(item)}>
           <p>{item.where}</p>

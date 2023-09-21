@@ -54,9 +54,9 @@ export const CV = {
     },
   ],
   languages: {
-    language: "Spanish",
-    wrlevel: "Native",
-    splevel: "Native",
+    language: "Español",
+    wrlevel: "",
+    splevel: "",
   },
   habilities: [
     "Tenaz",
@@ -68,13 +68,13 @@ export const CV = {
   volunteer: [
     {
       name: "Scauts",
-      where: "Spain",
+      where: "",
       description:
         "Recogida de plasticos en el monte",
     },
     {
       name: "Pueblo",
-      where: "Spain",
+      where: "",
       description:
         "Limpieza de pantano cuando hubo sequia, recogiendo basura",
     },

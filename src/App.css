@@ -1,7 +1,7 @@
 :root {
     --primary-color: #00ffff;
     --secondary-color: #27082b;
-    background-color:#b48184 ;
+    background-color:#958c8d ;
   }
   
   .App {
@@ -10,6 +10,7 @@
   }
   ul {
     list-style-type: none;
+    
   }
   
   .custom-btn {
@@ -25,6 +26,7 @@
     color: var(--secondary-color);
     margin: 5px;
   }
+  
   
   
   
