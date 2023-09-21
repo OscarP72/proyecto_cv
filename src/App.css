@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #00ffff;
+    --secondary-color: #27082b;
+    background-color:#b48184 ;
+  }
+  
+  .App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  .custom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-4 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 5px;
+  }
+  
+  
+  
