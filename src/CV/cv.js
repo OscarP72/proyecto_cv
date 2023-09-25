@@ -6,7 +6,7 @@ export const CV = {
     email: "oskitarpereal@gmail.com",
     birthDate: "15/02/1972",
     image: "https://cdn-icons-png.flaticon.com/512/5556/5556468.png",
-    gitHub: "https://github.com/tonystark",
+    gitHub: "https://github.com/OscarP72",
     aboutMe: [
       {
         info: "Persona comprometido con mi trabajo",
