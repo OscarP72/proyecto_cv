@@ -1,19 +1,16 @@
+import "./App.css";
+import Countdown from "./components/Countdown/Countdown";
+import DigitalClock from "./components/DigitalClock/DigitalClock";
+import Stopwatch from "./components/Stopwatch/Stopwatch";
 
-import './App.css'
-import Countdown from './components/Countdown/Countdown'
-import DigitalClock from './components/DigitalClock/DigitalClock'
-import Stopwatch from './components/Stopwatch/Stopwatch'
-
-const App=()=> {
-  
+const App = () => {
   return (
-    <>
-      <DigitalClock/>
-      <Countdown/>
-      <Stopwatch/>
-      
-    </>
-  )
-}
+    <div className="reloj">
+      <DigitalClock />
+      <Countdown />
+      <Stopwatch />
+    </div>
+  );
+};
 
-export default App
+export default App;
